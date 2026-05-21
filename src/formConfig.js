@@ -1,0 +1,45 @@
+// Each field is fully configurable from this object.
+// `className` is the single property that controls the input's CSS classes.
+export const signupFormConfig = [
+  {
+    name: 'fullName',
+    label: 'Full Name',
+    type: 'text',
+    placeholder: 'Jane Doe',
+    required: true,
+    minLength: 2,
+    maxLength: 60,
+    className: 'form-control form-control-lg',
+    autoComplete: 'name',
+  },
+  {
+    name: 'email',
+    label: 'Email',
+    type: 'email',
+    placeholder: 'you@example.com',
+    required: true,
+    helpText: "We'll never share your email.",
+    className: 'form-control',
+    autoComplete: 'email',
+  },
+  {
+    name: 'password',
+    label: 'Password',
+    type: 'password',
+    required: true,
+    minLength: 8,
+    helpText: 'At least 8 characters.',
+    className: 'form-control',
+    autoComplete: 'new-password',
+  },
+  {
+    name: 'age',
+    label: 'Age',
+    type: 'number',
+    placeholder: '18',
+    required: true,
+    min: 13,
+    max: 120,
+    className: 'form-control',
+  },
+];
