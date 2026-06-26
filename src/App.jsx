@@ -9,7 +9,7 @@ export default function App() {
     <div className="container py-5" style={{ maxWidth: 640 }}>
       <div className="card shadow-sm">
         <div className="card-body">
-          <h1 className="h4 mb-4">Sign Up</h1>
+          <h1 className="h4 mb-4">Sign Upjkjkjk</h1>
           <DynamicForm
             fields={signupFormConfig}
             submitLabel="Create account"
